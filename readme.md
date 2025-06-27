@@ -11,8 +11,9 @@ Paper: https://arxiv.org/abs/2506.19713
 
 
 ## Usage
+The node is in advanced/model.
 
-To use FDG, just place the `FDGNode` at advanced/model category in front of the `KSampler` node in your workflow.
+To use FDG, just place the `FDGNode` (located in the advanced/model category) in front of the `KSampler` node in your workflow.
 
 Basically disables cfg values ​​within KSampler.
 
