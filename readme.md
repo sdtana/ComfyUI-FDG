@@ -23,7 +23,7 @@ Testing on SDXL only.
 - `guidance_scale_high`: Guidance scale for high-frequency details.
 - `guidance_scale_low`: Guidance scale for low-frequency structures.
 - `levels`: Number of pyramid levels for frequency decomposition. For levels higher than 2, it operates using linear interpolation for each frequency.
-- `fdg_steps`: Number of initial steps to apply FDG before switching to CFG. After the limit, the cfg value of the KSampler node is used. If the cfg is set 1, the value of guidance_scale_high is applied.
+- `fdg_steps`:  Number of initial steps where FDG is applied before switching to CFG. Beyond this threshold, the cfg value from the KSampler node takes effect. When cfg equals 1, the guidance_scale_high value is used. If the threshold exceeds the total number of steps, FDG is automatically applied to all steps.
 
 ## Citation
 
