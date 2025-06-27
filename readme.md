@@ -11,7 +11,6 @@ Paper: https://arxiv.org/abs/2506.19713
 
 
 ## Usage
-The node is in advanced/model.
 
 To use FDG, just place the `FDGNode` (located in the advanced/model category) in front of the `KSampler` node in your workflow.
 
@@ -25,3 +24,16 @@ Testing on SDXL only.
 - `guidance_scale_low`: Guidance scale for low-frequency structures.
 - `levels`: Number of pyramid levels for frequency decomposition. For levels higher than 2, it operates using linear interpolation for each frequency.
 - `fdg_steps`: Number of initial steps to apply FDG before switching to CFG. After the limit, the cfg value of the KSampler node is used. If the cfg is set 1, the value of guidance_scale_high is applied.
+
+## Citation
+
+If you use this implementation in your research, please cite the original paper:
+
+@misc{sadat2025guidance,
+  title={Guidance in the Frequency Domain Enables High-Fidelity Sampling at Low CFG Scales},
+  author={Seyedmorteza Sadat and Tobias Vontobel and Farnood Salehi and Romann M. Weber},
+  year={2025},
+  eprint={2506.19713},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG}
+}
