@@ -1,6 +1,8 @@
+## ComfyUI-FDG
 Implementation of [Guidance in the Frequency Domain Enables High-Fidelity Sampling at Low CFG Scales](https://arxiv.org/abs/2506.19713) for [ComfyUI](https://github.com/comfyanonymous/ComfyUI).
 
 Thanks to the FDG researchers for making their code public.
+
 FDG improves image quality at low guidance scales and avoids the drawbacks of high CFG scales by design.
 
 Paper: https://arxiv.org/abs/2506.19713
@@ -11,7 +13,9 @@ Paper: https://arxiv.org/abs/2506.19713
 ## Usage
 
 To use FDG, just place the `FDGNode` at advanced/model category in front of the `KSampler` node in your workflow.
+
 Basically disables cfg values ​​within KSampler.
+
 Testing on SDXL only.
 
 ## Inputs
