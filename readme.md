@@ -28,12 +28,12 @@ Testing on SDXL only.
 ## Citation
 
 If you use this implementation in your research, please cite the original paper:
-
+```
 @misc{sadat2025guidance,
-  title={Guidance in the Frequency Domain Enables High-Fidelity Sampling at Low CFG Scales},
-  author={Seyedmorteza Sadat and Tobias Vontobel and Farnood Salehi and Romann M. Weber},
-  year={2025},
-  eprint={2506.19713},
-  archivePrefix={arXiv},
-  primaryClass={cs.LG}
+    title={Guidance in the Frequency Domain Enables High-Fidelity Sampling at Low CFG Scales},
+    author={Seyedmorteza Sadat and Tobias Vontobel and Farnood Salehi and Romann M. Weber},
+    year={2025},
+    eprint={2506.19713},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
 }
