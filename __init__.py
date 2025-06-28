@@ -5,5 +5,5 @@ NODE_CLASS_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "FDGNode": "Frequency Domain Guidance (FDG)"
+    "FDGNode": "Frequency Decoupled Guidance (FDG)"
 }
